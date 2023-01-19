@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AK Visulizer</title>
+  </head>
+  <body>
+    <header class="header">
+      <a class="name" href="https://www.linkedin.com/in/iamamitkumar05/"
+        ><h3>AK Visualizer</h3>
+      </a>
+      <nav class="header-nav">
+        <ul class="nav-ul">
+          <li class="active" id="Sorting-li">Sorting</li>
+          <li id="Searching-li">Searching</li>
+        </ul>
+      </nav>
+      <a
+        title="Amit Kumar"
+        href="https://akrock0512.github.io/amit-kumar.github.io/"
+        ><img src="pic.jpg" class="pic"
+      /></a>
+    </header>
+    <div class="container1">
+      <section class="options">
+        <button id="quick">Quick Sort</button>
+        <button id="merge">Merger Sort</button>
+        <button id="bubble">Bubble sort</button>
+        <button id="insertion">Insertion Sort</button>
+        <button id="selection">Selection Sort</button>
+      </section>
+      <section class="bars">
+        <div id="bars" class="flex-container"></div>
+      </section>
+      <section class="options2">
+        <button class="new-array">New array</button>
+        <div>
+          <span id="size"
+            >Size
+            <input
+              id="arr_size"
+              type="range"
+              min="5"
+              max="100"
+              step="1"
+              value="60"
+            />
+          </span>
+          <span id="speed"
+            >Speed
+            <input
+              id="speed_input"
+              type="range"
+              min="20"
+              max="300"
+              stepDown="10"
+              value="60"
+            />
+          </span>
+        </div>
+      </section>
+    </div>
+    <div class="conatiner2 hidden">
+      <div class="number-input">
+        <div>
+          <span
+            >Search for :
+            <input
+              type="number"
+              min="1"
+              max="200"
+              id="search-number"
+              placeholder="Any positive number"
+          /></span>
+          <button class="search-btn">Search</button>
+        </div>
+        <button class="search-new">New Array</button>
+      </div>
+      <div class="linear-search">
+        <!-- <hr /> -->
+        <h4 id="linear-index">Linear Search</h4>
+        <div id="linear-bars" class="flex-container1"></div>
+      </div>
+      <div class="binary-search">
+        <!-- <hr /> -->
+        <h4 id="binary-index">Binary Search</h4>
+        <div id="binary-bars" class="flex-container2"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="searching.js"></script>
+    <script src="selectionSort.js"></script>
+    <script src="bubbleSort.js"></script>
+    <script src="insertionSort.js"></script>
+    <script src="quickSort.js"></script>
+    <script src="mergeSort.js"></script>
+  </body>
+</html>
