@@ -1,6 +1,6 @@
 # Ak Visulizer
 
-### An interactive visualization tool for fundamental algorithms in sorting, searching and path-finding.
+### An interactive visualization tool for fundamental algorithms in sorting, and searching.
 
 Try it your self [Ak Visulizer](https://akvisulizer.netlify.app/)
 
